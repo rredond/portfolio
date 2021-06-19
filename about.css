@@ -1,0 +1,113 @@
+.about-section {
+  height: 70vh;
+  padding: 15px 5px;
+  /* padding-bottom: 15vh; */
+}
+
+.about-header {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.profile {
+  text-align: center;
+  width: 35%;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+
+.profile i {
+  font-size: 35px;
+  padding: 0px 8px;
+}
+
+.profile p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+/* Skills Container */
+
+.skills-container {
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+/* Icons */
+
+.linkedin-icon:hover {
+  color: rgb(42, 110, 255);
+  border-bottom: 2px Solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+.github-icon:hover {
+  color: rgb(71, 66, 70);
+  border-bottom: 2px Solid rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+
+.html5-icon:hover {
+  color: #f06f19;
+}
+.javascript-icon:hover {
+  color: #eedf10;
+}
+.angular-icon:hover {
+  color: #e71212;
+}
+.css-icon:hover {
+  color: #447af8;
+}
+.databases-icon:hover {
+  color: #383b42;
+}
+.sass-icon:hover {
+  color: rgb(245, 35, 182);
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 850px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-section {
+    height: auto;
+    padding: 15px 5px;
+    /* padding-bottom: 15vh; */
+  }
+  .profile,
+  .skills-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile,
+  .skills-container {
+    width: 100%;
+  }
+}
