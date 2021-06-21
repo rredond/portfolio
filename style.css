@@ -126,7 +126,7 @@ input {
   font: italic normal 26px/1 "Roboto", sans-serif;
   text-align: center;
   background: transparent;
-  animation: slideDown 1.5s ease-in-out 0s infinite alternate forwards;
+  animation: slideDown 2s ease-in-out 0s infinite alternate forwards;
 }
 
 /* Particles */
