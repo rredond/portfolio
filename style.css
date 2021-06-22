@@ -113,6 +113,20 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.main-header {
+  font-size: 44px;
+  color: #20124d;
+  margin-bottom: 10px;
+}
+
+.main-section h2 {
+  color: #20124d;
+}
+.main-section span {
+  color: #f54748;
 }
 .button {
   background: #ffffff;
@@ -127,6 +141,18 @@ input {
   text-align: center;
   background: transparent;
   animation: slideDown 2s ease-in-out 0s infinite alternate forwards;
+}
+
+button span {
+  color: #20124d;
+}
+.button-span {
+  font-size: 20px;
+  color: #20124d;
+}
+
+.button i {
+  font-size: 30px;
 }
 
 /* Particles */
@@ -190,7 +216,25 @@ input {
   button {
     margin-top: -25px;
   }
+
+  .main-header {
+    font-size: 26px;
+  }
+
+  .main-section h2 {
+    font-size: 22px;
+  }
+  .hamburger {
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  button {
+    margin-top: -70px;
+    padding: 0px 25px;
+  }
+  .hamburger {
+    margin-top: 0px;
+  }
 }
